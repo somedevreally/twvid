@@ -1,0 +1,9 @@
+services:
+  twvid:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: twvid
+    volumes:
+      - ./config.py:/app/config.py
+    restart: always
