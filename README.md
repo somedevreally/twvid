@@ -4,6 +4,6 @@ Telegram bot for downloading media from Twitter in best available quality. See h
 ## Usage
 1. Clone repository
 2. Set bot options in [config.py](https://github.com/skrimix/twitter_downloader_bot/blob/master/config.py)
-3. Install dependencies with `pip install -r requirements.txt`
-4. Start the bot with `python main.py`
+3. `docker build -t twvid -f Dockerfile .`
+4. `docker compose up -d`
 5. Now you can use commands `/start`, `/help`, `/stats`, `/resetstats` or send tweet links
